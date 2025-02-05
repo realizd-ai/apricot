@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",              // or "ES2015", "ES2018", etc.
+    "module": "commonjs",
+    "lib": ["ES2017"],
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true            // This can help ignore errors in node_modules
+  },
+  "include": ["apricot.ts"]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "exparse",
+  "version": "1.0.0",
+  "description": "Chat history parser",
+  "main": "dist/exparse.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "start": "node dist/exparse.js"
+  },
+  "dependencies": {
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
