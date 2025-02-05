@@ -31,7 +31,7 @@ LLMs are RESTful and stateless, which means that that have no memory of previous
 
 That means that when you're using the API, every time you wish to continue a conversation, you have to supply the entire previous conversation history, and then add the new part you would like to contribute. You then receive the LLM's response back.
 
-If the conversation so far has *H* tokens in it, and the tokens you add with your new response are *N*, then calling the API will incurr *H + N* input tokens. The LLM will respond with *R* ouput tokens in its response.
+If the conversation so far has *H* tokens in it, and the tokens you add with your new response are *N*, then calling the API will incur *H + N* input tokens. The LLM will respond with *R* output tokens in its response.
 
 The total costs of the API call will have been *H + N* input tokens, and *R* output tokens. But, going forward, the conversation history is longer now, so the new *H' = H + N + R*. This increases costs quickly.
 
